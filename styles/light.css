@@ -1,9 +1,9 @@
 .page.theme_light {
   --bg-img: url(../images/cover-image-light.png);
-  --title-color: #f1b2ce;
+  --bg-color: #fff1f7;
+  --main-color: #f1b2ce;
   --text-color: #353430;
   --accent-color: #ff8dcb;
-  --main-font: 'IBM Plex mono';
   --subtitle-text-color: #353430;
   --title-color: #353430;
   --btn-hover-color: rgba(53, 52, 48, 0.4);
@@ -18,10 +18,10 @@
 @media (prefers-color-scheme: light) {
   :root {
     --bg-img: url(../images/cover-image-light.png);
-    --title-color: #f1b2ce;
+    --bg-color: #fff1f7;
+    --main-color: #f1b2ce;
     --text-color: #353430;
     --accent-color: #ff8dcb;
-    --main-font: 'IBM Plex mono';
     --subtitle-text-color: #353430;
     --title-color: #353430;
     --btn-hover-color: rgba(53, 52, 48, 0.4);
