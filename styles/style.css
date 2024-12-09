@@ -83,7 +83,7 @@
   color: var(--main-color);
   font-size: var(--logo-size);
   line-height: 0.825em;
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--main-shadow-color);
 }
 
 .header__paragraph {
@@ -253,7 +253,7 @@
   color: var(--main-color);
   font-size: var(--logo-size);
   line-height: 0.825em;
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--main-shadow-color);
 }
 
 @media  (width >= 768px) {
@@ -359,7 +359,7 @@
   }
 }
 
-@media (orientation: landscape)and (width >=1024px) {
+@media (orientation: landscape) and (width >=1024px) {
   .header__theme-menu {
     grid-column: span 2;
     justify-self: center;
